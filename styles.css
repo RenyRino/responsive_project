@@ -28,8 +28,18 @@ h2 {
   justify-content: center;
 }
 
-.button {
-  border: 1px solid black;
+.button-contact {
+  border: 1px solid #618ee8;
+  background-color: #618ee8;
+  color: white;
   padding: 10px;
   margin: 10px 20px;
+  border-radius: 3px;
+}
+
+.button-about {
+  border: 2px solid #618ee8;
+  padding: 10px;
+  margin: 10px 20px;
+  border-radius: 3px;
 }

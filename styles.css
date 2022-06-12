@@ -94,6 +94,11 @@ body {
   margin-bottom: 30px;
 }
 
+.btn {
+  border: 1px solid #fb7777 !important;
+  background-color: #fb7777 !important;
+}
+
 @media screen and (max-width: 700px) {
   .name h1 {
     font-size: 40px;

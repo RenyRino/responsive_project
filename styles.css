@@ -1,61 +1,60 @@
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
 :root {
-  --box-about-color: #7ca2ef;
-  --box-shadow: 2px 2px 2px grey;
+  --box-about-color: #fb7777;
 }
 body {
-  text-align: center;
+  text-align: center !important;
   margin-bottom: 50px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-h2 {
-  font-size: 20px;
+  font-family: "Inter", sans-serif;
 }
 
 .title h2 {
   margin-top: 50px;
   margin-bottom: 10px;
+  font-size: 40px;
 }
 
 .name h1 {
   margin-bottom: 10px;
   margin-top: 10px;
-  font-size: 40px;
+  font-size: 80px;
 }
 
 .description h2 {
+  font-size: 15px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.contact {
+.navigation-links {
   display: flex;
   flex: 1;
   justify-content: center;
 }
 
-.button-contact {
-  border: 1px solid #618ee8;
-  background-color: #618ee8;
+.contact-link {
+  border: 1px solid #fb7777;
+  background-color: #fb7777;
   color: white;
   padding: 10px;
   margin: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-  box-shadow: var(--box-shadow);
 }
-.button-contact:hover {
+.contact-link:hover {
   color: black;
 }
 
-.button-about {
-  border: 2px solid #618ee8;
-  color: #618ee8;
+.about-link {
+  border: 2px solid #fb7777;
+  color: #fb7777;
   padding: 10px;
   margin: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-  box-shadow: var(--box-shadow);
 }
-.button-about:hover {
+.about-link:hover {
   color: black;
 }
 
@@ -64,48 +63,46 @@ h2 {
 }
 
 .title-about h1 {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .title-about h2 {
   margin-top: 10px;
-  font-size: 20px;
-}
-
-.description-about {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  margin: 10px 200px;
-  text-align: left;
-  color: white;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 .desc-1 {
-  border: 1px solid var(--box-about-color);
-  background-color: var(--box-about-color);
-  padding: 10px;
-  padding-left: 20px;
-  margin: 10px 10px;
-}
-
-.desc-2 {
-  border: 1px solid var(--box-about-color);
-  background-color: var(--box-about-color);
-  padding: 10px;
-  padding-left: 20px;
-  margin: 10px 10px;
+  margin: 20px 50px;
 }
 
 #contact-description h1 {
+  margin-top: 30px;
   margin-bottom: 10px;
+}
+
+#contact-description {
+  margin-bottom: 50px;
 }
 
 .email {
   text-decoration: none;
-  margin-top: 0px;
-  margin-bottom: 0px;
+}
+
+.weather-desc {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .name h1 {
+    font-size: 40px;
+  }
+
+  .title-about h1 {
+    font-size: 30px;
+  }
+  .title-about h2 {
+    font-size: 20px;
+  }
 }
